@@ -1,0 +1,146 @@
+/*body {
+}*/
+
+h1{
+	font-family: 'Varela Round', sans-serif;
+	color:#ff6ac2;
+}
+
+p{
+	font-family: 'Varela Round', sans-serif;
+}
+
+	
+/* top navigation */
+.topnav {
+  background-color: #ffc365;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ff6ac2;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+/*blog*/
+.heart{
+  height: 100px;
+  width: 200%;
+}
+
+blog {
+  box-sizing: border-box;
+}
+/*map*/
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+
+/*blog*/
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Varela Round', sans-serif;
+  padding: 20px;
+  background: #c0ff8e;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #ff6ac2;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background: #ffc365;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:#ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   background: #ffc365;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ff6ac2;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
